@@ -35,7 +35,7 @@ Attempt has been made to optimize the **RandomForest** and **XGBoost** classifie
 
 Of course, since this is more like an open ended study, there is the chance that given a deeper dive into hyperparameter optimization, better scores from the models would not be far from reach. However, this is not the main focus of this work.
 
-## 11. Interpretation & Feature Importances
+## Interpretation & Feature Importances
 In this section of the analysis, we would like to answer the following question:
 
 **Which features have the most and the least impact on the target?**
