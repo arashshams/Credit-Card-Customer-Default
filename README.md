@@ -1,7 +1,7 @@
 # Credit Card Customer Default
 This repo hosts a Machine Learning pipeline for analysis of credit card customer default.
 
-For more details, please refer to the [Kaggle Kernel](https://www.kaggle.com/arashshamseddini/kaggle-customer-default/edit).
+For more details, please refer to the [Kaggle Kernel](https://www.kaggle.com/arashshamseddini/kaggle-customer-default/).
 
 In this analysis, a classification problem of predicting whether a credit card client will default or not is addressed.
 
