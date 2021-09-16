@@ -62,13 +62,13 @@ The results can further be explained by **SHAP Dependence** plot as well as **SH
 **SHAP Dependence Plot**
 As an example for one of the features, `BILL_AMT1`:
 
-![dependence](./Images/dependence_plot.png)
+![dependence](./Images/dependence-plot.png)
 
 The plot above shows the effect of `LIMIT_BAL` feature on the prediction. Here, the x-axis represents values of the feature `LIMIT_BAL` and the y-axis is the `SHAP` value for that feature, which represents how much knowing that feature's value changes the output. Obviously, higher values of `LIMIT_BAL` result in higher `SHAP` values for class "0" of the target. This suggests that class is likely to be "0" (`non-default`) with higher values for `LIMIT_BAL` which makes sense.  Also, the color corresponds to a second feature (`BILL_AMT2`) that may have an interaction effect with `LIMIT_BAL`.
 
 **SHAP Summary Plot**
 
-![summary](./Images/summary_plot.png)
+![summary](./Images/summary-plot.png)
 
 
 The plot shows the most important features for predicting the class. It also shows the direction of how it is going to drive the prediction. Higher `SHAP` value means positive association with class "0" of the target as we are using `SHAP` values for class "0". As an example, higher value of `BILL_AMT1` feature has a high negative impact on the prediction of the target as class "0", or higher value of `LIMIT_BAL` feature has a high positive impact on the prediction of the target as class "0".
@@ -78,7 +78,7 @@ Using optimized `LightGBM` as the best performing model, we can score the model 
 
 The overall summary of the models' scores are indicated in the following diagram.
 
-![scores_plot](./Images/scores_plot.png)
+![scores_plot](./Images/scores-plot.png)
 
 ## Conclusions
 Since the project is open-ended, there is still room for improvement. We can go much deeper in `Preprocessing`, `Feature Selection`, `Feature Engineering` and `Hyperparameter Optimization`. We can also investigate the performance of other classifiers as well and even make attempts to tune them to get better validation scores. We can summarize the concluding remarks as below:
