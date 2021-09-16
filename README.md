@@ -35,7 +35,7 @@ Feature Selection is carried out on the models to check if it would improve the 
 ## [Hyperparameter Optimization](https://en.wikipedia.org/wiki/Hyperparameter_optimization)
 Attempt has been made to optimize the three classifiers. Based on below results, Hyperparameter Optimization seems to help with **RandomForest** and a little with **LightGBM** but not **XGBoost**. Although **RandomForest** scores are a little better, here we pick **LightGBM** for the remainder of the work because it is much faster. 
 
-![hyper](./Images/hyperparameter_optimization.png)
+![hyper](./Images/hyperparameter-optimization.png)
 
 Of course, since this is more like an open ended study, there is the chance that given a deeper dive into hyperparameter optimization, better scores from the models would not be far from reach. However, this is not the main focus of this work.
 
@@ -51,11 +51,11 @@ First of all, we will be continuing with optimized `LightGBM` as one of the best
 
 Technically SHAP uses the encoded features. Therefore, it would help to take a look at these features.
 
-![encoded](./Images/encoded_features.png)
+![encoded](./Images/encoded-features.png)
 
 Below table shows the calculated SHAP coefficients for these encoded features.
 
-![coeff](./Images/SHAP_coeff.png)
+![coeff](./Images/SHAP-coeff.png)
 
 The results can further be explained by **SHAP Dependence** plot as well as **SHAP Summary** plot.
 
