@@ -43,6 +43,7 @@ Of course, since this is more like an open ended study, there is the chance that
 In this section of the analysis, we would like to answer the following question:
 
 **Which features have the most and the least impact on the target?**
+
 First of all, we will be continuing with optimized `LightGBM` as one of the best performing model. Second, we will use the [SHAP](https://github.com/slundberg/shap) approach to explain the importance of each feature. In other words:
 
 - How small or big a feature can affect the target
@@ -60,6 +61,7 @@ Below table shows the calculated SHAP coefficients for these encoded features.
 The results can further be explained by **SHAP Dependence** plot as well as **SHAP Summary** plot.
 
 **SHAP Dependence Plot**
+
 As an example for one of the features, `BILL_AMT1`:
 
 ![dependence](./Images/dependence-plot.png)
