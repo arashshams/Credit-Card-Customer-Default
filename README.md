@@ -1,7 +1,7 @@
 # Credit Card Customer Default
 This repo hosts a Machine Learning pipeline for analysis of credit card customer default.
 
-For more details, please refer to the [Kaggle Kernel](https://www.kaggle.com/arashshamseddini/kaggle-customer-default/).
+For more details, please refer to the [Kaggle Kernel](https://www.kaggle.com/arashshamseddini/credit-card-customer-default).
 
 In this analysis, a classification problem of predicting whether a credit card client will default or not is addressed.
 
@@ -54,7 +54,7 @@ Technically SHAP uses the encoded features. Therefore, it would help to take a l
 
 ![encoded](./Images/encoded-features.png)
 
-Below table shows the calculated SHAP coefficients for these encoded features.
+Below table shows the calculated SHAP coefficients for the first 10 encoded features.
 
 ![coeff](./Images/SHAP-coeff.png)
 
